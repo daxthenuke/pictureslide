@@ -7,9 +7,7 @@
 @import url('fontawesome-all.min.css');
 
 /*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
 */
 
 // Breakpoints.
@@ -588,7 +586,7 @@
 	.poptrox-popup {
 		background: #1a1f2c;
 		background: rgba(18, 21, 29, 0.9);
-		box-shadow: 0px 0px 0px 10px #fff, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
+		box-shadow: 0px 0px 0px 10px rgb(29, 12, 12), 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
 		cursor: default;
 
 		.loader {
@@ -662,8 +660,8 @@
 
 		@include breakpoint('<=small') {
 			background: #0a0f1c;
-			box-shadow: 0px 0px 30px 10px rgba(8, 11, 19, 0.85);
-			border: solid 2.5px #fff;
+			box-shadow: 0px 0px 30px 10px rgba(68, 111, 230, 0.85);
+			border: solid 2.5px rgb(233, 180, 34);
 			@include vendor('box-sizing', 'content-box');
 
 			.caption {
